@@ -23,6 +23,11 @@ S  = 3.14*r*r;
 printf ("\nchu_vi=%f", c);
 printf ("\n dien tich=%f", S); 
 
+int n,tong;
+printf ("\nNhap so nguyen n :"); 
+scanf ("%d", &n); 
+tong = n*(n+1)/2;
+printf ("\nTong=%d", tong); 
 
 
 

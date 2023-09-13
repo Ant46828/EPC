@@ -17,7 +17,7 @@ printf ("Nhap thang:");
 scanf("%d",&mm); 
 printf ("Nhap nam:"); 
 scanf("%d",&yyyy); 
-printf ("%02d/%02d/%02d",dd,mm,yyyy); 
+printf ("%d/%d/%d",dd,mm,yyyy); 
 
 float b,c,tong,hieu,nhan,chia;
 printf ("\nNhap gia tri b=");
