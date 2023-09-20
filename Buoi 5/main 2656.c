@@ -16,13 +16,13 @@ for (i=1;i<=n;i++){
     printf("\nUoc cua n la:%d ", i);
     }
 
-int num,j;
-printf("\nNhap vao so nguyen num:");
-scanf("%d",num); 
-for(i=1;i<=num;i++){
-	for(j=0;j<num;j++) {
-		printf("%d * %d = %d",num ,i ,num*i);
-	} 
-}
+int num;
+    printf("\nNhap vao mot so: ");
+    scanf("%d", &num);
+
+    printf("Bang cuu chuong %d:\n", num);
+    for (i = 1; i <= 10; i++) {
+        printf("%d * %d = %d\n", num, i, num * i);
+    }
 return 0;
 }
