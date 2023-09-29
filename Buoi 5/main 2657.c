@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
     }
    
     //Cau a
-    printf("\nTao giac\n");
+    printf("\nTam giac\n");
     int space = N - 1;
     for(i=0;i<N;i++) {
         //Tao do cao
