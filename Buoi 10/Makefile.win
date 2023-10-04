@@ -1,15 +1,15 @@
-# Project: Rap chieu phim
+# Project: quanlisinhvien
 # Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = rapchieuphim.o Untitled2.o
-LINKOBJ  = rapchieuphim.o Untitled2.o
+OBJ      = sach.o
+LINKOBJ  = sach.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = "Rap chieu phim.exe"
+BIN      = quanlisinhvien.exe
 CXXFLAGS = $(CXXINCS) 
 CFLAGS   = $(INCS) 
 RM       = rm.exe -f
@@ -24,8 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-rapchieuphim.o: rapchieuphim.c
-	$(CC) -c rapchieuphim.c -o rapchieuphim.o $(CFLAGS)
-
-Untitled2.o: Untitled2.c
-	$(CC) -c Untitled2.c -o Untitled2.o $(CFLAGS)
+sach.o: sach.c
+	$(CC) -c sach.c -o sach.o $(CFLAGS)
