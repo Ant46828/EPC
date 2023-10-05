@@ -1,0 +1,15 @@
+Sinh vien 1:
+Ho ten: 
+Tinh thanh: 
+Nam sinh: 0
+
+Sinh vien 2:
+Ho ten: 
+Tinh thanh: 
+Nam sinh: 0
+
+Sinh vien 3:
+Ho ten: 
+Tinh thanh: 
+Nam sinh: 0
+
