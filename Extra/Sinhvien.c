@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct student_st{
-	char name[30],province[30];
+typedef struct student_st {
+	char name[30]; 
+	char province[30];
 	int year;
-}Student; 
+} Student; 
 Student studentList[3];
 
 void showMenu() {
@@ -22,10 +23,10 @@ void input() {
 	for (i=0;i<3;i++) {
 		printf("\nNhap thong tin cua sinh vien thu %d",i+1);
 		printf("\nNhap ten cua sinh vien:");
-		fflush(stdin);fflush(stdout);
+//		fflush(stdin);fflush(stdout);
 		gets(studentList[i].name);
 		printf("\nNhap tinh:");
-		fflush(stdin);fflush(stdout);
+//		fflush(stdin);fflush(stdout);
 		gets(studentList[i].province);
 		printf("\nNhap nam sinh:");
 		scanf("%d",&studentList[i].year);
